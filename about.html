@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+
+body, html {
+  height: 100%;
+  line-height: 1.8;
+}
+.w3-bar .w3-button {
+  padding: 16px;
+}
+</style>
+<body>
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-card" id="myNavbar">
+    <a href="index.html" class="w3-bar-item w3-button w3-wide">BHAVYA TYAGI</a>
+    <!-- Right-sided navbar links -->
+    <div class="w3-right w3-hide-small">
+      <a href="#about" class="w3-bar-item w3-button"><i class="fa fa-user"> ABOUT</i></a>
+      
+      <a href="work.html" class="w3-bar-item w3-button"><i class="fa fa-th"></i> WORK</a>
+      <a href="blog.html" class="w3-bar-item w3-button"><i class="fa fa-laptop"></i> BLOG</a>
+      <a href="index.html #contact"  class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTACT</a>
+    </div>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT</a>
+  <a href="#team" onclick="w3_close()" class="w3-bar-item w3-button">TEAM</a>
+  <a href="#work" onclick="w3_close()" class="w3-bar-item w3-button">WORK</a>
+  <a href="#pricing" onclick="w3_close()" class="w3-bar-item w3-button">PRICING</a>
+  <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
+</nav>
+<header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
+  <img class="w3-image" src="wallpaper-1.jpg" alt="Architecture" width="1500" height="800">
+  <div class="w3-display-middle w3-margin-top w3-center">
+    <h1 class="w3-xxlarge w3-text-white"><span class="w3-padding w3-black w3-opacity-min"><b>ABOUT ME</b></span></h1>
+  </div>
+</header>
+<div class="w3-container w3-light-grey" style="padding:128px 14px" id="contact">
+<div class="w3-container" style="padding:128px 12px" id="about">
+  <div class="w3-bar-item w3-wide w3-center"><h1>WHO AM I?</h1>
+  <p class="w3-center w3-large">I build value by Development & Design</p>
+  </div>
+ 
+</div>
+
+<div class="w3-row">
+    <div class="w3-col m6 w3-center w3-padding-large">
+      
+      <img src="bhavya.jpg" class="w3-round w3-image w3-opacity w3-hover-opacity-off"  width="350" height="200">
+    </div>
+
+    <!-- Hide this text on small devices -->
+    
+    <!-- Hide this text on small devices -->
+    
+    <div class="w3-col m5 w3-hide-small w3-padding-large">
+      <div class="w3-bar-item w3-wide"><p>I'm Bhavya Tyagi, but you can call me Bhavya. Originally hailing from the India. So, I've been honig my skills 
+  	 in design and development building projects for Web, Mobile and more.<br>
+     Currently, I am pre-final year undergraduate enrolled at the Jaypee University of Engineering and Technology, Guna
+     persuing Bachelors of Technology in Computer Science.<br> I enjoy taking complex problems and turning them into 
+     simple and beautiful inerface designs. I also love the logic and structure of coding and always strive to
+     write elegant and efficient code, whether it be HTML, CSS, Javascript or React JS. I'm a UI/UX designer also<br>
+     with a passion for designing beautiful and functional user experiences. I have worked with a small company for
+     some of their projects for 3-4 months. If you want to hire me for your project, simply send me an email.
+     My email is <b><i>bhavyatyagi79@gmail.com</b></i> <br>
+     Don't forget to check out my social media channels!</p></div>
+    <div class="w3-text-grey w3-large"> 
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div> 
+    </div>
+  </div>    
+  </div>
+  <div class="w3-container" style="padding:128px 16px" id="about">
+ <div class="w3-bar-item w3-wide w3-center"><h2>KEY FEATURES OF DESIGNING & DEVELOPMENT</h2></div>
+ 
+ <div class="w3-row-padding w3-center" style="margin-top:64px">
+    <div class="w3-quarter">
+      <i class="fa fa-desktop w3-margin-bottom w3-jumbo w3-center"></i>
+      <div class="w3-bar-item w3-wide"><p class="w3-large">Responsive</p></div>
+      
+    </div>
+    <div class="w3-quarter">
+      <i class="fa fa-mobile w3-margin-bottom w3-jumbo"></i>
+      <div class="w3-bar-item w3-wide "><p class="w3-large">Mobile Friendliness</p></div>
+      
+    </div>
+    <div class="w3-quarter">
+      <i class="fa fa-diamond w3-margin-bottom w3-jumbo"></i>
+      <div class="w3-bar-item w3-wide "><p class="w3-large">Design</p></div>
+      
+    </div>
+    <div class="w3-quarter">
+      <i class="fa fa-spinner w3-margin-bottom w3-jumbo"></i>
+      <div class="w3-bar-item w3-wide "><p class="w3-large">Quick Loading</p></div>
+      
+    </div>
+  </div>
+ <div class="w3-padding-16">
+ <div class="w3-container w3-light-grey " style="padding:64px " id="contact">
+  <div class="w3-container w3-row w3-center w3-dark-grey w3-padding-64">
+  <div class="w3-quarter">
+    <div class="w3-bar-item w3-wide "><span class="w3-xxlarge">6+</span></div>
+    <div class="w3-bar-item w3-wide "><br>Projects Done</div>
+  </div>
+  <div class="w3-quarter">
+    <div class="w3-bar-item w3-wide "><span class="w3-xxlarge">2+</span></div>
+    <div class="w3-bar-item w3-wide "><br>Internships</div>
+  </div>
+  <div class="w3-quarter">
+    <div class="w3-bar-item w3-wide "><span class="w3-xxlarge">5+</span></div>
+    <div class="w3-bar-item w3-wide "><br>Certificates</div>
+  </div>
+  <div class="w3-quarter">
+    <div class="w3-bar-item w3-wide "><span class="w3-xxlarge">4+</span></div>
+    <div class="w3-bar-item w3-wide "><br>Achievements</div>
+  </div>
+</div>
+
+	<div class="w3-container w3-light-grey" style="padding:128px 16px" id="contact">
+	 <div class="w3-bar-item w3-wide w3-center"><h2>My Skills.</h2>
+	 </div>
+	
+    <div class="w3-padding-16">
+	 <p class="w3-wide"><i class="fa fa-laptop w3-margin-right"></i>Python</p>
+      <div class="w3-grey">
+
+        <div class="w3-container w3-dark-grey w3-center" style="width:78%">78%</div>
+      </div>
+  </div>
+    
+      <div class="w3-padding-16">
+      <p class="w3-wide"><i class="fa fa-html5 w3-margin-right"></i>Web Development</p>
+      <div class="w3-grey">
+        <div class="w3-container w3-dark-grey w3-center" style="width:85%">85%</div>
+      </div>
+  </div>
+
+      <div class="w3-padding-16">
+      <p class="w3-wide"><i class="fa fa-photo w3-margin-right"></i>Photoshop</p>
+      <div class="w3-grey">
+        <div class="w3-container w3-dark-grey w3-center" style="width:70%">70%</div>
+      </div>
+    </div>
+    <div class="w3-padding-16">
+      <p class="w3-wide"><i class="fa fa-desktop w3-margin-right"></i>Data Structures</p>
+      <div class="w3-grey">
+        <div class="w3-container w3-dark-grey w3-center" style="width:68%">68%</div>
+      </div>
+    </div>
+    <div class="w3-padding-16">
+      <p class="w3-wide"><i class="fa fa-play button w3-margin-right"></i>Blender</p>
+      <div class="w3-grey">
+        <div class="w3-container w3-dark-grey w3-center" style="width:65%">65%</div>
+      </div>
+    </div>
+    <div class="w3-padding-16">
+      <p class="w3-wide"><i class="fa fa-desktop w3-margin-right"></i>After Effects</p>
+      <div class="w3-grey">
+        <div class="w3-container w3-dark-grey w3-center" style="width:64%">64%</div>
+      </div>
+    </div>
+    <div class="w3-padding-16">
+      <p class="w3-wide"><i class="fa fa-laptop w3-margin-right"></i>DBMS/My SQL</p>
+      <div class="w3-grey">
+        <div class="w3-container w3-dark-grey w3-center" style="width:80%">80%</div>
+      </div>
+    </div>
+    <div class="w3-padding-16">
+      <p class="w3-wide"><i class="fa fa-laptop w3-margin-right"></i>C/C++</p>
+      <div class="w3-grey">
+        <div class="w3-container w3-dark-grey w3-center" style="width:82%">82%</div>
+      </div>
+    </div>
+    <div class="w3-padding-16">
+      <p class="w3-wide"><i class="fa fa-user w3-margin-right"></i>Leadership</p>
+      <div class="w3-grey">
+        <div class="w3-container w3-dark-grey w3-center" style="width:90%">90%</div>
+      </div>
+    </div>
+    <div class="w3-padding-16">
+      
+      <div class="w3-bar-item w3-wide"><p><a href="BHAVYA TYAGI (5).pdf" class="w3-button w3-dark-grey"><i class="fa fa-download"> </i> Download Resume</a></p></div>
+
+     </div>
+
+    
+    </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+    <footer class="w3-center w3-black w3-padding-64">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <div class="w3-xlarge w3-section">
+    <a href="https://www.facebook.com/bhavyatyagi2000"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+    <a href="https://www.instagram.com/the_u_world/"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+    
+    <a href="https://in.pinterest.com/bhavyatyagi79/_created/"><i class="fa fa-pinterest-p w3-hover-opacity"></i></a>
+    
+    <a href="https://www.linkedin.com/in/bhavya-tyagi-b7578b182/"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+  </div>
+
+  <p>Powered by <a href="https://www.theuworld.org" title="W3.CSS" target="_blank" class="w3-hover-text-green">Bhavya Tyagi</a></p>
+</footer>
+
+</body>
+</html>
